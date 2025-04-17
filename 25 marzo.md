@@ -13,9 +13,9 @@ con \varphi siendo el angulo de torsion
 $$F_{F}=b\frac{\mathrm{d} \varphi }{\mathrm{d} t}$$
 
 
-Donde \frac{\mathrm{d} \varphi }{\mathrm{d} t} es la velocidad angular
+Donde $\frac{\mathrm{d} \varphi }{\mathrm{d} t}$ es la velocidad angular
 
 
 $$T=J\cdot \frac{\mathrm{d^{2}} \varphi }{\mathrm{d} t^{2}}$$
 
-Donde \frac{\mathrm{d^{2}} \varphi }{\mathrm{d} t^{2}} es el momento de inersia
+Donde $\frac{\mathrm{d^{2}} \varphi }{\mathrm{d} t^{2}}$ es el momento de inersia
