@@ -81,7 +81,7 @@ Sistemas mecanicos mas complejos
 masa 1
 
 
-$$ u - F_{R1} - F_{R2} - F_{F} = m_{1} * a_{m1
+$$ u - F_{R1} - F_{R2} - F_{F} = m_{1} * a_{m1}$$
 
 
 $$ u(t) - k_{1} * x_{1}(t) - k_{2} * (x_{1}(t)-x_{2}(t)) - b *\frac{d(x_{1}(t)-x_{2}(t))} {dt} = m_{1} * \frac{d^{2}x_{1(t)}}{dt^{2}}$$
