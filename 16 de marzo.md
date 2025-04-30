@@ -27,3 +27,12 @@ Friccion por rodamiento: Es la fuerza que se opone al movimiento de un solido qu
 
 # Sistemas masa-Resorte-amortiguador
 Se trata de sistemas que pueden almacenar energia potencial y cinetica, esto con el proposito de reducir las vibraciones y ruidos generados en la estructura a causa de algun impacto
+Ley de Hooke $$F_{R}=k_{2} * X$$  
+Friccion viscosa $$F_{F}=k_{1} * v_{m}$$ 
+Leyes de Newton $$F=m * a$$
+
+# Ejemplo en clase 1
+
+
+# Ejemplo en clase 2
+# Ejemplo en clase 3
