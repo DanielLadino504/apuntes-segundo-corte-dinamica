@@ -78,6 +78,8 @@ $$ u(t) + mg - k_{2}y(t) - k_{1}dy(t) = md^{2}y(t)$$
 
 # Ejemplo en clase 3
 Sistemas mecanicos mas complejos 
+
+
 masa 1
 
 
