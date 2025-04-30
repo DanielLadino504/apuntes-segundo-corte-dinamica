@@ -38,7 +38,7 @@ Donde $\alpha$ es la aceleracion angular
 
 $$ T(t) * k * \theta (t) - b * \frac{d\theta (t)}{dt} = J * \frac{d^{2}\theta (t)}{dt^{2}}$$
 
-#Trabajo
+# Trabajo
 Es una medida de la realizacion del esfuerzo
 
 
@@ -47,7 +47,7 @@ $$ W = F_{x}$$
 
 $$trabajo total realizado = \int_{0}^{x} kxdx=\frac{1}{2}kx^{2}$$
 
-#Energia 
+# Energia 
 Capacidad de un sistema para realizar trabajo
 ##Energia potencial
 Energía almacenada en un sistema debido a su posición o configuración
@@ -56,7 +56,7 @@ Energía almacenada en un sistema debido a su posición o configuración
 $$ U = \int_{0}^{h} mg dx = mgh$$
 
 
-##Energia cinetica
+## Energia cinetica
 Energía que un objeto o sistema tiene debido a su movimiento
 
 $$ T = \frac{1}{2}mv^{2}$$
@@ -65,7 +65,7 @@ $$ T = \frac{1}{2}mv^{2}$$
 $$ T = \frac{1}{2}J\theta ^{2}$$
  
 
-#Potencia 
+# Potencia 
 La realizacion de trabajo que varia con respecto al tiempo
 
 
@@ -73,4 +73,60 @@ $$Potencia = P = \frac{dW}{dt}$$
 
 
 $$Potencia media = \frac{trabajo realizado (t_{2}-t_{1})segundos}{(t_{2}-t_{1})segundos}$$
+
+# Aplicando a elemtentos mecanicos
+
+## Energia potencial en un resorte 
+Energía almacenada en un resorte cuando se estira o comprime.
+
+
+$$ U = \int_{0}^{x} Fdx = \int_{0}^{x} kxdx = \frac{1}{2}kx^{2}$$
+
+
+forma general cambio de energia 
+
+
+$$ \Delta U = \int_{x1}^{x2} Fdx = \int_{x1}^{x2} kxdx = \frac{1}{2}kx_{2}^{2} -\frac{1}{2}kx_{1}^{2}$$
+
+
+## Potencia en un resorte
+Se relaciona con la tasa a la que se realiza trabajo para deformar o estirar el resorte, y también on la energía potencial elástica que se almacena en él.
+
+
+$$ P = \frac{dW}{dt} = \frac{Fdx}{dt} = F \dot{x} = kx\dot{x}$$
+
+
+## Energia disipada
+Energía que se pierde o se convierte en otra forma de energía, generalmente calor, en un sistema.
+
+
+$$ \Delta W = \int_{x1}^{x2} Fdx = \int_{x1}^{x2} b \dot{x}dx = b \int_{t1}^{t2}\dot{x}^{2}dt$$
+
+
+## Potencia disipada en amortiguador
+Energía que se convierte en calor debido a la fricción y la viscosidad del fluido dentro del amortiguador al absorber energía de vibraciones o impactos.
+
+
+$$ P = \frac{dW}{dt} = \frac{Fdx}{dt} = F\dot{x}$$
+
+
+## Sistema consertivo 
+Es un sistema donde la energía mecánica total se mantiene constante a lo largo del tiempo, sin pérdidas o ganancias.
+
+
+$$ \Delta (T+U) = \Delta W$$
+
+
+Si no entra energia externa entonces 
+
+
+$$ \Delta (T+U)=0$$
+
+
+T+U= constante
+
+
+
+
+
 
