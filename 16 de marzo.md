@@ -28,12 +28,65 @@ Friccion por rodamiento: Es la fuerza que se opone al movimiento de un solido qu
 # Sistemas masa-Resorte-amortiguador
 Se trata de sistemas que pueden almacenar energia potencial y cinetica, esto con el proposito de reducir las vibraciones y ruidos generados en la estructura a causa de algun impacto
 
+
 Ley de Hooke        $$F_{R}=k_{2} * X$$  
+
+
 Friccion viscosa    $$F_{F}=k_{1} * v_{m}$$ 
-Leyes de Newton     $$F=m * a$$
+
+
+Leyes de Newton     $$F= m * a$$
 
 # Ejemplo en clase 1
 
 
+$$ u - F_{R}-F_{F} = m * a$$
+
+
+$$ F_{R}= k_{2} * y(t)$$
+
+
+$$ u(t) - k_{2} * y(t) - F_{F} = m * a$$
+
+
+$$ F_{F} = k_{1} * \frac{dy(t)}{dt}$$
+
+
+$$ u(t) - k_{2} * y(t) - k_{1} * \frac{dy(t)}{dt} = m * a$$
+
+
+$$ a = \frac{d^{2}y(t)}{dt^{2}}$$
+
+
+$$ u(t) - k_{2} * y(t) - k_{1} * \frac{dy(t)}{dt} = m * \frac{d^{2}y(t)}{dt^{2}}$$
+
+
 # Ejemplo en clase 2
+
+
+$$ \sum f = m * a$$
+
+
+$$ u + F_{w} - F_{R} - F_{F} = m * a$$
+
+
+$$ mg + u(t) - k_{2}y(t) - k_{1}dy(t) = mdy(t)$$
+
+
+$$ u(t) + mg - k_{2}y(t) - k_{1}dy(t) = md^{2}y(t)$$
+
+
 # Ejemplo en clase 3
+# Sistemas mecanicos mas complejos 
+masa 1
+
+masa 2
+
+
+
+
+
+
+
+
+
