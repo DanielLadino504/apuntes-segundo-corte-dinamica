@@ -65,6 +65,11 @@ $$ T = \frac{1}{2}J\theta ^{2}$$
  
 
 #Potencia 
+La realizacion de trabajo que varia con respecto al tiempo
 
 
+Potencia = P = \frac{dW}{dt}
+
+
+Potencia media = \frac{trabajo realizado (t_{2}-t_{1})segundos}{(t_{2}-t_{1})segundos}
 
