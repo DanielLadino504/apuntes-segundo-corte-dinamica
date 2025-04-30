@@ -1,8 +1,10 @@
 # Sistemas Electricos
-Un sistema electrico es conocido como un conjunto de componentes que se encargan de transportar la energia electrica
+Al estudiar dinámica de sistemas, nos encontramos con los sistemas eléctricos normalmente definidos como el conjunto de elementos conectados entre sí con la finalidad de generar, transmitir, distribuir y utilizar la energía eléctrica de manera eficiente y segura.
 ## Circuito RLC
-Se refiere a los circuitos que cuentan con resistencias, un inductor y condensadores en su estructura ya sea de forma paralela o con un cirucito en serie.
-En el momento de realizar el modelamiento se deben tener en cuentas las siguientes formulas:
+El modelamiento de sistemas eléctricos RLC (Resistor, Inductor, Capacitor) se realiza con ecuaciones diferenciales. Estas ecuaciones diferenciales normalmente son de primer y segundo orden, se reconocen a simple vista gracias a los elementos acumuladores de energía, debido a la presencia de inductancia y capacitancia. Estas ecuaciones describen el comportamiento dinámico de la corriente y el voltaje en el circuito en función del tiempo.
+
+En los circuitos RLC, las leyes que los rigen son   la ley de Ohm y las leyes de Kirchhoff y los elementos a estudiar se pueden dividir en 3 tipos, en elementos resistivos, inductivos y capacitivos por esto al momento de modelar un sistema eléctrico RLC tenemos que tener encuentra las siguientes fórmulas: 
+
 La siguiente formula pertenece a la ley de ohm:
 
 $$R=\frac{v(t)}{i(t)}$$
