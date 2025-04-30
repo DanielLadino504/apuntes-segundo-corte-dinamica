@@ -42,9 +42,10 @@ $$ T(t) * k * \theta (t) - b * \frac{d\theta (t)}{dt} = J * \frac{d^{2}\theta (t
 Es una medida de la realizacion del esfuerzo
 
 
-$$ W = F_{x}$$    N-m
+$$ W = F_{x}$$    
 
-trabajo total realizado = \int_{0}^{x} kxdx=\frac{1}{2}kx^{2}
+
+$$trabajo total realizado = \int_{0}^{x} kxdx=\frac{1}{2}kx^{2}$$
 
 #Energia 
 Capacidad de un sistema para realizar trabajo
@@ -68,8 +69,8 @@ $$ T = \frac{1}{2}J\theta ^{2}$$
 La realizacion de trabajo que varia con respecto al tiempo
 
 
-Potencia = P = \frac{dW}{dt}
+$$Potencia = P = \frac{dW}{dt}$$
 
 
-Potencia media = \frac{trabajo realizado (t_{2}-t_{1})segundos}{(t_{2}-t_{1})segundos}
+$$Potencia media = \frac{trabajo realizado (t_{2}-t_{1})segundos}{(t_{2}-t_{1})segundos}$$
 
