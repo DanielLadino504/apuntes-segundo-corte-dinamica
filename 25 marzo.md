@@ -19,3 +19,21 @@ Donde $\frac{\mathrm{d} \varphi }{\mathrm{d} t}$ es la velocidad angular
 $$T=J\cdot \frac{\mathrm{d^{2}} \varphi }{\mathrm{d} t^{2}}$$
 
 Donde $\frac{\mathrm{d^{2}} \varphi }{\mathrm{d} t^{2}}$ es el momento de inersia
+
+# Ejemplo
+Formula general
+
+
+$$T-F_{R}-F_{F}=J*\alpha$$
+
+Donde $\alpha$ es la aceleracion angular
+
+
+Formula particular
+
+$$T(t)-F_{F}=J*\alpha$$
+
+Donde $\alpha$ es la aceleracion angular
+
+
+$$T(t)* k*\theta (t)-b*\frac{d\theta (t)}{dt}=J*\frac{d^{2}\theta (t)}{dt^{2}}$$
