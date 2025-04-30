@@ -77,12 +77,14 @@ $$ u(t) + mg - k_{2}y(t) - k_{1}dy(t) = md^{2}y(t)$$
 
 
 # Ejemplo en clase 3
-# Sistemas mecanicos mas complejos 
+Sistemas mecanicos mas complejos 
 masa 1
-
+$$ u - F_{R1} - F_{R2} - F_{F} = m_{1} * a_{m1}$$
+$$ u(t) - k_{1} * x_{1}(t) - k_{2} * (x_{1}(t)-x_{2}(t)) - b *\frac{d(x_{1}(t)-x_{2}(t))} {dt} = m_{1} * \frac{d^{2}x_{1(t)}}{dt^{2}}$$
 masa 2
 
-
+$$ F_{R2} - F_{F} - F_{R3} = m_{2} * a_{m2}$$
+$$ k_{2} * (x_{1}(t)-x_{2}(t)) + b *\frac{d(x_{1}(t)-x_{2}(t))}{dt} - k_{3} * x_{2}(t) = m_{2} * \frac{d^{2}x_{2(t)}}{dt^{2}}$$
 
 
 
