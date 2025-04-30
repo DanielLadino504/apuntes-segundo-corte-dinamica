@@ -125,8 +125,11 @@ $$ \Delta (T+U)=0$$
 
 T+U= constante
 
+# Ejemplo 1
+# Ejemplo 2
+# Ejemplo 3
 
-
+## Conversion movimiento Translacional - Rotacional
 
 
 
