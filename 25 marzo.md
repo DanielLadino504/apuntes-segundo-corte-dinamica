@@ -206,3 +206,17 @@ $$\frac{f_{1}}{f_{2}}=\frac{I_{1}}{I_{2}}=\frac{x_{1}}{x_{2}}$$
 
 ## Ejemplo
 
+![](4.jpg)
+
+$$T_{m}-T_{1}-B_{m}\frac{\mathrm{d} \theta }{\mathrm{d} t}=J_{m}\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}$$
+
+$$T_{m}-Mr^{2}\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}-B_{m}\frac{\mathrm{d} \theta }{\mathrm{d} t}=J_{m}\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}$$
+
+$$T_{m}-Mr\frac{\mathrm{d^{2}} y }{\mathrm{d} t^{2}}-\frac{B_{m}}{r}\frac{\mathrm{d} y }{\mathrm{d} t}=\frac{J_{m}}{r}\frac{\mathrm{d^{2}} y }{\mathrm{d} t^{2}}$$
+
+
+# Ejercicios
+1-Par aplicado a un sistema compuesto por un disco, una barra de torsion de rigidez k yy rozamiento viscoso B.
+
+
+
