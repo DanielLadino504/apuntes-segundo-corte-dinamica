@@ -129,6 +129,8 @@ T+U= constante
 
 ![](1.jpg)
 # Ejemplo 2
+
+![](2.jpg)
 # Ejemplo 3
 
 ## Conversion movimiento Translacional - Rotacional
