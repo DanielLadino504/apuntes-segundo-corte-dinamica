@@ -190,7 +190,19 @@ $$(m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+\frac{3}{2}kx)\frac{\mathrm{d} x}{
 
 $$m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+\frac{2}{3}kx)=0$$
 
-## Conversion movimiento Translacional - Rotacional
+# Conversion movimiento Translacional - Rotacional
+Veremos algunos casos en donde el sistema contiene la relacion de los movimientos traslacionales y rotacionales
+## Trenes de engranes, palancas y bandas
+En estos sistemas tenemos las siguientes formulas:
 
+$$r_{1}N_{2}=r_{2}N_{1}, \theta _{1}r_{1}=\theta _{2}r_{2}, T_{1}\theta _{1}=T_{2}\theta _{2}$$
 
+$$\frac{T_{1}}{T_{2}}=\frac{N_{1}}{N_{2}}=\frac{\theta _{1}}{\theta _{2}}$$
+
+## Palancas
+Para estos sistemas usamos la siguiente formula:
+
+$$\frac{f_{1}}{f_{2}}=\frac{I_{1}}{I_{2}}=\frac{x_{1}}{x_{2}}$$
+
+## Ejemplo
 
