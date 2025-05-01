@@ -126,6 +126,8 @@ $$ \Delta (T+U)=0$$
 T+U= constante
 
 # Ejemplo 1
+
+![](1.jpg)
 # Ejemplo 2
 # Ejemplo 3
 
