@@ -128,10 +128,67 @@ T+U= constante
 # Ejemplo 1
 
 ![](1.jpg)
+
+Se realiza el modelamiento:
+
+$$T+U=\frac{1}{2}m\frac{\mathrm{d} x}{\mathrm{d} t}^{2}+\frac{1}{2}kx^{2}=constante$$
+
+Al derivar la energia total se obtiene:
+
+$$\frac{\mathrm{d} }{\mathrm{d} t}(T+U)=m\frac{\mathrm{d} x}{\mathrm{d} t}\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx\frac{\mathrm{d} x}{\mathrm{d} t}=(m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx)\frac{\mathrm{d} x}{\mathrm{d} t}=0$$
+
+$$m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx=0$$
 # Ejemplo 2
 
 ![](2.jpg)
+
+En este caso debemos tomar en cuenta las condiciones iniciales como su posicion o si esta en equilibrio para usar estas ecuaiones:
+
+$$U_{o}=mgx_{o}+\frac{1}{2}k\delta ^{2}, k\delta =mg,T=\frac{1}{2}m\frac{dx}{dt}^{2}$$
+
+Teniendo esto presente se comienza con el modelamiento:
+
+$$U=mg(x_{o}-x)+\frac{1}{2}k(\delta +x)^{2}$$
+
+$$U=mgx_{o}-mgx+\frac{1}{2}k\delta^{2}+k\delta x+\frac{1}{2}kx^{2}$$
+
+$$U=mgx_{0}+\frac{1}{2}k\delta ^{2}-(mg-k\delta )x+\frac{1}{2}kx^{2}$$
+
+$$U=U_{o}+\frac{1}{2}kx^{2}$$
+
+Agregamos la ecuacion obtenida al la formula de la energia total:
+
+$$T+U=\frac{1}{2}m\frac{\mathrm{d} x}{\mathrm{d} t}^{2}+U_{o}+\frac{1}{2}kx^{2}=constante$$
+
+Derivando esta ecuacion obtenemos:
+
+$$\frac{\mathrm{d} }{\mathrm{d} t}(T+U)=m\frac{\mathrm{d} x}{\mathrm{d} t}\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx\frac{\mathrm{d} x}{\mathrm{d} t}=0$$
+
+$$(m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx)\frac{\mathrm{d} x}{\mathrm{d} t}=0$$
+
+$$m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+kx=0$$
+
 # Ejemplo 3
+
+![](3.jpg)
+
+Primero debemos Tener en cuenta algunas formulas de estos sistemas:
+
+$$T=\frac{1}{2}m\frac{\mathrm{d} x}{\mathrm{d} t}^{2}+\frac{1}{2}J\frac{\mathrm{d} \theta }{\mathrm{d} t}^{2}$$
+
+$$U=\frac{1}{2}kx^{2}, x=R\theta$$
+
+Comenzamos planteando la ecuacion de la energia total del sistema:
+
+$$T+U=\frac{1}{2}m\frac{\mathrm{d} x}{\mathrm{d} t}^{2}+\frac{1}{2}J\frac{\mathrm{d} \theta }{\mathrm{d} t}^{2}+\frac{1}{2}kx^{2}$$
+
+$$\frac{3}{4}m\frac{\mathrm{d} x}{\mathrm{d} t}^{2}+\frac{1}{2}kx^{2}=constante$$
+
+$$\frac{3}{2}m\frac{\mathrm{d} x}{\mathrm{d} t}\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+\frac{1}{2}kx\frac{\mathrm{d} x}{\mathrm{d} t}=0$$
+
+$$(m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+\frac{3}{2}kx)\frac{\mathrm{d} x}{\mathrm{d} t}=0$$
+
+$$m\frac{\mathrm{d^{2}} x}{\mathrm{d} t^{2}}+\frac{2}{3}kx)=0$$
 
 ## Conversion movimiento Translacional - Rotacional
 
