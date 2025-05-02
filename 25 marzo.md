@@ -236,3 +236,24 @@ $$I\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}+B\frac{\mathrm{d} \theta }{\m
 Se considerara la palanca rigida, sin masa y con un desplazamiento angular lo suficientemente pequeño como para ser considerado horizontal.
 Los muelles k_{1} y K_{2} Simulan la torsion de la barra de la palanca.
 
+![](6.jpg)
+
+
+Primero debemos tener que hacer el planteamiento del equilibrio del sistema:
+
+
+$$\theta (t)=\frac{x_{1}(t)}{l_{1}}\approx \frac{x_{2}(t)}{l_{2}}\to x_{2}(t)=\frac{l_{2}}{l_{1}}x_{1(t)}$$
+
+Empezamos a plantear la ecuacion diferencial del sistema:
+
+$$M(\frac{l_{2}}{l_{1}}\frac{\mathrm{d^{2}} x_{2}(t)}{\mathrm{d} t^{2}})+K_{2}(\frac{l_{2}}{l_{1}}x_{1}(t))=0$$
+
+$$M(\frac{\mathrm{d^{2}} x_{2}(t)}{\mathrm{d} t^{2}})+K_{2}(x_{1}(t))=0$$
+
+Teniendo la ecuacion diferencial solo queda pasar al dominio de Laplace y encontrar la funcion de transferencia del sistema:
+
+$$Ms^{2}X_{1}(s)+K_{2}X_{2}(s)=0$$
+
+$$\frac{X_{2}(s)}{X_{1}(s)}=\frac{k_{2}{Ms^{2}}$$
+
+
