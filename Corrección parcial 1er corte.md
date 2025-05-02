@@ -37,7 +37,7 @@ Igualando coeficientes:
 
 $$(A+B=5)$$
 $$(C=0)$$
-$$(4A=2\Rightarrow A=\frac{1}{2})$$
+$$\left ( 4A=2\Rightarrow A=\frac{1}{2} \right ) $$
 
 Entonces:
 
