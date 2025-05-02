@@ -22,17 +22,35 @@ Metodo de fraciones parciales:
 
 $$\frac{5s^{2}+2}{s(s^{2}+4)}=\frac{A}{s}+\frac{Bs+C}{s^{2}+4}$$
 
+Multiplicando ambos lados por:
+$${s(s^{2}+4)}$$
+
 $$5s^{2}+2=A(s^{2}+2)+(Bs+C)(s)$$
 
 $$5s^{2}+2=As^{2}+4A+Bs^{2}+Cs$$
 
+Agrupamos terminos:
+
+$$5s^{2}+2=(A+B)s^{2}+Cs+4A$$
+
+Igualando coeficientes:
+
 $$(A+B=5)$$
 $$(C=0)$$
 $$(4A=2\Rightarrow A=\frac{1}{2})$$
+
+Entonces:
+
 $$S=\frac{1}{2}+B$$
 $$\frac{10}{2}-\frac{1}{2}=B$$
 $$B=\frac{9}{2}$$
+
+Aplicamos la transformada inversa de LaPlace
+
 $$X(s)=\frac{\frac{1}{2}}{s}+\frac{\frac{9}{2}s}{s^{2}+4}$$
+
+Solucion:
+
 $$x(s)=\frac{1}{2}+\frac{9}{2}cos(2t)$$
 
 # PUNTO 2
