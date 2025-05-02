@@ -1,6 +1,6 @@
 # PARES
 ## PUNTO 1
-
+Ecuacion 
 $$x"+4x=5$$ 
 
 Tenemos las siguentes condiciones iniciales 
