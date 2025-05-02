@@ -1,6 +1,5 @@
-## pares
-# PUNTO 1
-
+# PARES
+## PUNTO 1
 
 $$x"+4x=5$$ 
 
