@@ -1,12 +1,14 @@
 # PARES
 ## PUNTO 1
-Ecuacion 
+Ecuacion: 
 
 $$x"+4x=5$$ 
 
-Tenemos las siguentes condiciones iniciales 
+Tenemos las siguentes condiciones iniciales:
 
- $$x(0)=5$$    ;   $$x´(0)=0$$
+$$x(0)=5$$       $$x´(0)=0$$
+ 
+Ulitizamos la Tansformada de LaPlace:
 
 $$s^{2}X(s)-sX(0)-X´(0)+4X(s)=\frac{5}{s}$$
 
