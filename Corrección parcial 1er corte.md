@@ -1,5 +1,5 @@
 # PARES
-## PUNTO 1
+## Punto 1
 Ecuacion: 
 
 $$x"+4x=5$$ 
@@ -17,6 +17,8 @@ $$s^{2}X(s)-5s+4X(s)=\frac{5}{s}$$
 $$X(s)(s^{2}+4)=\frac{5}{s}+5s$$
 
 $$X(s)=\frac{5s^{2}+2}{s(s^{2}+4)}$$
+
+Metodo de fraciones parciales:
 
 $$\frac{5s^{2}+2}{s(s^{2}+4)}=\frac{A}{s}+\frac{Bs+C}{s^{2}+4}$$
 
