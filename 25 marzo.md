@@ -195,7 +195,11 @@ Veremos algunos casos en donde el sistema contiene la relacion de los movimiento
 ## Trenes de engranes, palancas y bandas
 En estos sistemas tenemos las siguientes formulas:
 
-$$r_{1}N_{2}=r_{2}N_{1}, \theta _{1}r_{1}=\theta _{2}r_{2}, T_{1}\theta _{1}=T_{2}\theta _{2}$$
+$$r_{1}N_{2}=r_{2}N_{1}$$
+
+$$\theta _{1}r_{1}=\theta _{2}r_{2}$$
+
+$$T_{1}\theta _{1}=T_{2}\theta _{2}$$
 
 $$\frac{T_{1}}{T_{2}}=\frac{N_{1}}{N_{2}}=\frac{\theta _{1}}{\theta _{2}}$$
 
@@ -218,5 +222,17 @@ $$T_{m}-Mr\frac{\mathrm{d^{2}} y }{\mathrm{d} t^{2}}-\frac{B_{m}}{r}\frac{\mathr
 # Ejercicios
 1-Par aplicado a un sistema compuesto por un disco, una barra de torsion de rigidez k yy rozamiento viscoso B.
 
+![](5.jpg)
 
+Para empezar aplicamos la ley de newton y reemplazamos:
+
+$$\sum r(t)=I\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}$$
+
+$$P(t)-B\frac{\mathrm{d} \theta }{\mathrm{d} t}-k\theta (t)=I\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}$$
+
+$$I\frac{\mathrm{d^{2}} \theta }{\mathrm{d} t^{2}}+B\frac{\mathrm{d} \theta }{\mathrm{d} t}-k\theta (t)=P(t)$$
+
+2-Se trata de hallar la funcion de trasnferencia que relaciona el desplazamiento x_{4} producido en la parte superior de la placa con el desplazamiento de la masa M(x_{1}):
+Se considerara la palanca rigida, sin masa y con un desplazamiento angular lo suficientemente pequeño como para ser considerado horizontal.
+Los muelles k_{1} y K_{2} Simulan la torsion de la barra de la palanca.
 
