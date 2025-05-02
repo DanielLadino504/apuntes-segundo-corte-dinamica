@@ -3,6 +3,7 @@
 
 $$x"+4x=5$$ 
 
+Tenemos las siguentes condiciones iniciales 
 $$x(0)=5$$           
 
 $$x´(0)=0$$
