@@ -23,7 +23,7 @@ Metodo de fraciones parciales:
 $$\frac{5s^{2}+2}{s(s^{2}+4)}=\frac{A}{s}+\frac{Bs+C}{s^{2}+4}$$
 
 Multiplicando ambos lados por:
-$${s(s^{2}+4)}$$
+$$({s(s^{2}+4)})$$
 
 $$5s^{2}+2=A(s^{2}+2)+(Bs+C)(s)$$
 
