@@ -122,6 +122,31 @@ A+B=0\Rightarrow B=-A
 \frac{-15+32}{10}A=6\Rightarrow \frac{17}{10}A=6
 A=\frac{60}{17}
 B=-A=-\frac{60}{17}
+C=\frac{16}{5}A=\frac{16}{5}*\frac{60}{17}=\frac{960}{85}=\frac{192}{17}
+\frac{6s}{\left ( s-\frac{5}{2} \right )(s^{2}-4s+8)}=\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}
+\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}
+L^{-1}\left ( \frac{1}{s-a} \right )=e^{at}
+L^{-1}\left ( \frac{60}{17}*\frac{1}{s-\frac{5}{2}} \right )=\frac{60}{17}e^{\frac{5}{2}t}
+s^{2}-4s+8=(s-2)^{2}+4
+\frac{60s}{17((s-2)^{2}+4)}=\frac{60}{17}*\frac{s}{(s-2)^{2}+4}
+s=(s-2)+2
+\frac{s}{(s-2)^{2}+4}=\frac{s-2}{(s-2)^{2}+4}+\frac{2}{(s-2)^{2}+4}
+L^{-1}=\left ( \frac{s-a}{(s-a)^{2}+b^{2}} \right )=e^{at}cos(bt)
+L^{-1}=\left ( \frac{b}{(s-a)^{2}+b^{2}} \right )=e^{at}sin(bt)
+L^{-1}=\left ( \frac{60s}{17((s-2)^{2}+4)} \right )= \frac{60}{17}(e^{2t}cos(2t)+e^{2t}sin(2t))
+L^{-1}=\left ( \frac{192}{17((s-2)^{2}+4)} \right )= \frac{192}{17}*\frac{1}{2}e^{2t}sin(2t)=\frac{96}{17}e^{2t}sin(2t)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
