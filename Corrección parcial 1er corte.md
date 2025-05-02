@@ -110,17 +110,26 @@ $$(s-\frac{s}{2})$$
 $$(s^{2}-4$$
 $$\frac{6s}{(s-\frac{5}{2})(s^{2}-4s+8)}=\frac{A}{s-\frac{5}{2}}+\frac{Bs+C}{s^{2}-4s+8}$$
 $$((s-\frac{5}{2})(s^{2}-4s+8))$$
+
 $$6s=A(s^{2}-4s+8)+(Bs+C)(s-\frac{5}{2})$$
+
 $$A(s^{2}-4s+8)=As^{2}-4As+8A$$
+
 $$(Bs+C)(s-\frac{5}{2})=Bs^{2}-\frac{5}{2}Bs+Cs-\frac{5}{2}C$$
+
 $$6s=(A+B)s^{2}+\left ( (-4A+C-\frac{5}{2}B)s \right )+\left ( 8A-\frac{5}{2}C \right )$$
 $$(6s)$$
+
 $$(s^{2}):(A+B=0)$$
+
 $$(s):\left ( -4A+C-\frac{5}{2}B=6  \right )$$
+
 $$\left ( 8A-\frac{5}{2}C=0 \right )$$
+
 $$A+B=0\Rightarrow B=-A$$
 $$-4A+C-\frac{5}{2}(-A)=6$$
 $$-4A+C+\frac{5}{2}A=6$$
+
 $$(-4A+\frac{5}{2})A+C=6\Rightarrow -\frac{3}{2}A+C=6   (1)$$
 $$8A-\frac{5}{2}C=0\Rightarrow \frac{5}{2}C=8A\Rightarrow C=\frac{16}{5}A           (2)$$
 $$-\frac{3}{2}A+\frac{16}{5}A=6$$
@@ -129,20 +138,37 @@ $$\frac{-15+32}{10}A=6\Rightarrow \frac{17}{10}A=6$$
 $$A=\frac{60}{17}$$
 $$B=-A=-\frac{60}{17}$$
 $$C=\frac{16}{5}A=\frac{16}{5}*\frac{60}{17}=\frac{960}{85}=\frac{192}{17}$$
+
 $$\frac{6s}{\left ( s-\frac{5}{2} \right )(s^{2}-4s+8)}=\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}$$
+
 $$\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}$$
+
+
 $$L^{-1}\left ( \frac{1}{s-a} \right )=e^{at}$$
+
 $$L^{-1}\left ( \frac{60}{17}*\frac{1}{s-\frac{5}{2}} \right )=\frac{60}{17}e^{\frac{5}{2}t}$$
+
 $$s^{2}-4s+8=(s-2)^{2}+4$$
+
 $$\frac{60s}{17((s-2)^{2}+4)}=\frac{60}{17}*\frac{s}{(s-2)^{2}+4}$$
+
 $$s=(s-2)+2$$
+
 $$\frac{s}{(s-2)^{2}+4}=\frac{s-2}{(s-2)^{2}+4}+\frac{2}{(s-2)^{2}+4}$$
+
 $$L^{-1}\left ( \frac{s-a}{(s-a)^{2}+b^{2}} \right )=e^{at}cos(bt)$$
+
 $$L^{-1}\left ( \frac{b}{(s-a)^{2}+b^{2}} \right )=e^{at}sin(bt)$$
+
 $$L^{-1}\left ( \frac{60s}{17((s-2)^{2}+4)} \right )= \frac{60}{17}(e^{2t}cos(2t)+e^{2t}sin(2t))$$
+
 $$L^{-1}\left ( \frac{192}{17((s-2)^{2}+4)} \right )= \frac{192}{17}*\frac{1}{2}e^{2t}sin(2t)=\frac{96}{17}e^{2t}sin(2t)$$
+
+
 $$L^{-1}\left ( \frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}\right )$$
+
 $$=\frac{60}{17}e^{\frac{5}{2}t}-\frac{60s}{17}e^{2t}cos(2t)+\left ( -\frac{60}{17}+\frac{96}{17} \right )e^{2t}sin(2)$$
+
 $$=\frac{60}{17}e^{\frac{5}{2}t}-\frac{60}{17}e^{2t}cos(2t)+\frac{36}{17}e^{2t}sin(2t)$$
 
 
