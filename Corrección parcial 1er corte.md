@@ -131,10 +131,10 @@ s^{2}-4s+8=(s-2)^{2}+4
 \frac{60s}{17((s-2)^{2}+4)}=\frac{60}{17}*\frac{s}{(s-2)^{2}+4}
 s=(s-2)+2
 \frac{s}{(s-2)^{2}+4}=\frac{s-2}{(s-2)^{2}+4}+\frac{2}{(s-2)^{2}+4}
-L^{-1}=\left ( \frac{s-a}{(s-a)^{2}+b^{2}} \right )=e^{at}cos(bt)
-L^{-1}=\left ( \frac{b}{(s-a)^{2}+b^{2}} \right )=e^{at}sin(bt)
-L^{-1}=\left ( \frac{60s}{17((s-2)^{2}+4)} \right )= \frac{60}{17}(e^{2t}cos(2t)+e^{2t}sin(2t))
-L^{-1}=\left ( \frac{192}{17((s-2)^{2}+4)} \right )= \frac{192}{17}*\frac{1}{2}e^{2t}sin(2t)=\frac{96}{17}e^{2t}sin(2t)
+L^{-1}\left ( \frac{s-a}{(s-a)^{2}+b^{2}} \right )=e^{at}cos(bt)
+L^{-1}\left ( \frac{b}{(s-a)^{2}+b^{2}} \right )=e^{at}sin(bt)
+L^{-1}\left ( \frac{60s}{17((s-2)^{2}+4)} \right )= \frac{60}{17}(e^{2t}cos(2t)+e^{2t}sin(2t))
+L^{-1}\left ( \frac{192}{17((s-2)^{2}+4)} \right )= \frac{192}{17}*\frac{1}{2}e^{2t}sin(2t)=\frac{96}{17}e^{2t}sin(2t)
 
 
 
