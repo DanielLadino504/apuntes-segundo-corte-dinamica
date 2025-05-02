@@ -93,6 +93,7 @@ $$(s^{2}({s^{2}-4s+8}))$$
 $$5(s+2)=As(s^{2}-4s+8)+B(s^{2}-4s+8)+(Cs+D)s^{2}$$
 
 Esparcir cada termino:
+
 $$1.(As(s^{2}-4s+8)=A(s^{3}-4s^{2}+8s))$$
 $$2.(B(s^{2}-4s+8)=Bs^{2}-4Bs+8B)$$
 $$3.((Cs+D)s^{2}=Cs^{3}+D)$$
@@ -106,6 +107,7 @@ Igualar con el lado izquierdo:
 $$5s+10$$
 
 Igualar los coficientes:
+
 $$s^{3}: A+C=0$$
 $$s^{2}: -4A+B+D=0$$
 $$s^{1}: 8A-4B=5$$
