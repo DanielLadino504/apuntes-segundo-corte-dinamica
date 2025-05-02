@@ -45,9 +45,13 @@ $$S=\frac{1}{2}+B$$
 $$\frac{10}{2}-\frac{1}{2}=B$$
 $$B=\frac{9}{2}$$
 
-Aplicamos la transformada inversa de LaPlace
+Sustituyendo en las fracciones parciales:
 
 $$X(s)=\frac{\frac{1}{2}}{s}+\frac{\frac{9}{2}s}{s^{2}+4}$$
+
+Aplicamos la transformada inversa de LaPlace:
+
+$$x(s)=\frac{1}{2}L^{-1}\left ( \frac{1}{2} \right )+\frac{9}{2}L^{-1}\left ( \frac{s}{s^{2}+4} \right )$$
 
 Solucion:
 
