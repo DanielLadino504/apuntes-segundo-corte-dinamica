@@ -254,6 +254,6 @@ Teniendo la ecuacion diferencial solo queda pasar al dominio de Laplace y encont
 
 $$Ms^{2}X_{1}(s)+K_{2}X_{2}(s)=0$$
 
-$$\frac{X_{2}(s)}{X_{1}(s)}=\frac{k_{2}{Ms^{2}}$$
+$$\frac{X_{2}(s)}{X_{1}(s)}=\frac{k_{2}}{Ms^{2}}$$
 
 
