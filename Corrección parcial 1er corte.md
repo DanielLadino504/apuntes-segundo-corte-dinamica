@@ -5,7 +5,6 @@ $$x"+4x=5$$
 
 Tenemos las siguentes condiciones iniciales 
 $$x(0)=5$$           
-
 $$x´(0)=0$$
 
 $$s^{2}X(s)-sX(0)-X´(0)+4X(s)=\frac{5}{s}$$
