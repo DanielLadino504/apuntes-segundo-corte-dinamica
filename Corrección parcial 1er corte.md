@@ -209,9 +209,11 @@ $$X(t)=1+e^{-\frac{t}{2}}\left ( -cos\left ( \frac{1}{2}t\right )+3sin\left ( \f
 
 # PUNTO 2
 Tenemos la siguiente ecuacion:
+
 $$\frac{6s}{(s-\frac{5}{2})(s^{2}-4s+8)}$$
 $$(s-\frac{s}{2})$$
 $$(s^{2}-4$$
+
 Aplicamos el metodo de fracciones parciales:
 
 $$\frac{6s}{(s-\frac{5}{2})(s^{2}-4s+8)}=\frac{A}{s-\frac{5}{2}}+\frac{Bs+C}{s^{2}-4s+8}$$
