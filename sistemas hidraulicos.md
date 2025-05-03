@@ -70,5 +70,3 @@ $$h_{1}=R_{1}(A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}+q_{2})+R_{2}q_{2}$
 $$A_{1}\frac{d(R_{1}(A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}+q_{2})+R_{2}q_{2})}{dt}=(q_{i}-A_{2}R_{2}\frac{dq_{2}}{dt}+q_{2})$$
 
 $$A_{1}R_{1}A_{2}R_{2}\frac{d^{2}q_{2}}{dt^{2}}+(A_{1}R_{1}+A_{1}R_{2}+A_{2}R_{2})\frac{dq_{2}}{dt}-q_{2}=q_{i}$$
-
-# Ejercicios
