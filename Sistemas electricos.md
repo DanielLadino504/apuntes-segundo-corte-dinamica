@@ -38,4 +38,37 @@ Esta es una ecuación diferencial de segundo orden que describe la dinámica del
 - **Términos**:  
   - $$\( RC \frac{dy(t)}{dt} \)$$: Componente resistivo  
   - $$\( LC \frac{d^2 y(t)}{dt^2} \)$$: Componente inductivo  
-  - $$\( y(t) \)$$: Componente capacitivo  
+  - $$\( y(t) \)$$: Componente capacitivo
+
+# Ejemplo 2 de un sistema electrónico RLC
+ ![](7.jpg)
+## Ecuaciones del Circuito
+
+### Ley de Kirchhoff de Voltajes
+$$ u(t) - \frac{2}{0.5} \frac{dy(t)}{dt} - \frac{1}{0.5} y(t) - 2 \frac{dy(t)}{dt} = 0 $$
+
+### Ley de Kirchhoff de Corrientes (Nodo A)
+$$ i_u - i_1 - i_c = 0 $$
+$$ i_u(t) - \frac{V_{AB}}{0.5} - 2 \frac{dy(t)}{dt} = 0 $$
+
+### Relación de Voltajes
+$$ V_{AB} = i_c \cdot 1Ω + y(t) $$
+$$ V_{AB} = 2 \frac{dy(t)}{dt} \cdot 1Ω + y(t) $$
+
+### Ecuación Diferencial Final
+$$ u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0 $$
+
+## Componentes y Variables
+- **Elementos**:
+  - Fuente de voltaje: \( u(t) \)
+  - Resistencias: 1Ω, 0.5Ω
+  - Capacitor: 2F (voltaje \( y(t) \))
+  
+- **Corrientes**:
+  - \( i_u \): Corriente de entrada
+  - \( i_1 \): Corriente por 0.5Ω
+  - \( i_c \): Corriente por capacitor
+
+- **Variables clave**:
+  - \( V_{AB} \): Diferencia de potencial entre A y B
+  - \( \frac{dy(t)}{dt} \): Derivada del voltaje en el capacitor
