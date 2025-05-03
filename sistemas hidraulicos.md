@@ -6,13 +6,13 @@ Se tratan de sistemas que utilizan fluidos a presion para trasmitir fuerza con e
 En muchos sistemas industriales se desea que el flujo y el nivel se mantengan constantes en todo momento.
 Al momento de realizar el modelamiento debemos tener en cuenta las siguientes variables:
 
-$$q_{i}, q_{o}:Flujos de entrada y salida$$
+$q_{i}$: q_{o}:Flujos de entrada y salida
 
-$$R_{1}: Resistencia al flujo$$
+$R_{1}$: Resistencia al flujo
 
-$$A_{1}: Area trasversal del tanque$$
+$A_{1}$: Area trasversal del tanque
 
-$$h_[1]: nivel de liquido en el tanque$$
+$h_{1}$: nivel de liquido en el tanque
 
 Tambien debemos tener en cuenta las siguientes formulas:
 
