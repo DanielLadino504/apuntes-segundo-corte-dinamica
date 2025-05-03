@@ -5,7 +5,7 @@ El modelamiento de sistemas eléctricos RLC (Resistor, Inductor, Capacitor) se 
 
 En los circuitos RLC, las leyes que los rigen son   la ley de Ohm y las leyes de Kirchhoff y los elementos a estudiar se pueden dividir en 3 tipos, en elementos resistivos, inductivos y capacitivos por esto al momento de modelar un sistema eléctrico RLC tenemos que tener encuentra las siguientes fórmulas: 
 
-# Ejemplo de un sistema electrónico RLC
+# Ejemplo 1 de un sistema electrónico RLC
 ![](RLC 1.png)
 ## Análisis del Circuito Eléctrico
 
