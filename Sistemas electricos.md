@@ -41,7 +41,7 @@ Esta es una ecuación diferencial de segundo orden que describe la dinámica del
   - $$\( y(t) \)$$: Componente capacitivo
 
 # Ejemplo 2 de un sistema electrónico RLC
- ![](7.jpg)
+ ![](8.jpg)
 ## Ecuaciones del Circuito
 
 ### Ley de Kirchhoff de Voltajes
