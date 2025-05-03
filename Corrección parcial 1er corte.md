@@ -121,6 +121,8 @@ $$A+C=0\Rightarrow C=-\frac{5}{4}$$
 
 $$-4A+B+D=0\Rightarrow -4*\frac{5}{4}+\frac{5}{4}+D=0\Rightarrow -5+\frac{5}{4}+D=0$$
 
+De esta manera obtenemos:
+
 $$D=\frac{15}{4}$$
 
 $$(A=\frac{5}{4})$$
@@ -131,9 +133,13 @@ $$(C=-\frac{5}{4})$$
 
 $$(D=\frac{15}{4})$$
 
+Reemplazamos los valores obtenidos en nuestra ecuacion:
+
 $$\frac{5(s+2)}{s^{2}(s^{2}-4s+8)}=\frac{5}{4s}+\frac{5}{4s^{2}}+\frac{-\frac{5}{4}+\frac{15}{4}}{s^{2}-4s+8}$$
 
 $$\frac{5}{4s}+\frac{5}{4s^{2}}+\frac{-\frac{5}{4}s+\frac{15}{4}}{s^{2}-4s+8}$$
+
+Aplicamos la inversa de Laplace y se simplifica para obtener el resultado:
 
 $$L^{-1}(\frac{5}{4s})=\frac{5}{4}$$
 
@@ -155,37 +161,59 @@ $$L^{-1}\left ( \frac{5}{4s}+\frac{5}{4s^{2}}+\frac{-\frac{5}{4}s+\frac{15}{4}}{
 
 ## impar
 # PUNTO 1
+Tenemos la siguiente ecuacion:
+
 $$2\ddot{x}+2\dot{x}+x=1$$
+
+Con esto tenemos las siguientes condiciones iniciales
+
 $$x(0)=0$$
 $$\dot{x}(0)=2$$
+Usamos la Trasnformada de Laplace
 $$2(s^{2}X(s)-sX(0)-\dot{x}(0))+2(sX(s)-X(0))+X(s)=\frac{1}{s}$$
 $$2(s^{2}X(s)-2)+2sX(s)+X(s)=\frac{1}{s}$$
 $$2s^{2}X(s)-4+2sX(s)+X(s)=\frac{1}{s}$$
 $$(2s^{2}+2s+1)X(s)=\frac{1}{s}+4$$
 $$(2s^{2}+2s+1)X(s)=\frac{1+4s}{s}$$
 $$X(s)=\frac{1+4s}{s(2s^{2}+2s+1)}$$
+
+Usamos el metodo de fracciones parciales:
+
 $$\frac{1+4s}{s(2s^{2}+2s+1)}=\frac{A}{s}+\frac{Bs+C}{2s^{2}+2s+1}$$
 $$1+4s=A(2s^{2}+2s+1)+(Bs+C)s$$
 $$1=A(1)\Rightarrow A=1$$
 $$1+4s=A(2s^{2}+2s+1)+Bs^{2}+C$$
 $$1+4s=(2A+B)s^{2}+(2A+C)s+A$$
+
+Obtenemos los siguientes resultados de las variables:
+
 $$(A=1)$$
 $$(2A+B=0\Rightarrow B=-2)$$
 $$(2A+C=4\Rightarrow C=2)$$
+
+Reemplazamos los valores hayados en la ecuacion:
+
 $$\frac{1+4s}{s(2s^{2}+2s+1)}=\frac{1}{s}+\frac{-2s+2}{2s^{2}+2s+1}$$
 $$X(s)=\frac{1}{s}+\frac{s}{s^{2}+s+\frac{1}{2}}+\frac{1}{2s^{2}+s+\frac{1}{2}}$$
 $$s^{2}+s+\frac{1}{2}=\left ( s+\frac{1}{2} \right )^{2}+\frac{1}{4}$$
 $$X(s)=\frac{1}{s}-\frac{s}{\left ( s+\frac{1}{2} \right )^{2}+\left ( \frac{1}{2} \right )^{2}}+\frac{3}{\left (s+\frac{1}{2}  \right )^{2}+\left ( \frac{1}{2} \right )^{2}}$$
+
+Aplicamos la derivada inversa de Laplace y resolvemos:
+
 $$(L^{-1}\left ( \frac{1}{2} \right )=1)$$
 $$(L^{-1}\left ( \frac{s+a}{(s+a)^{2}+b^{2}} \right )=e^{-at}cos(bt))$$
 $$(L^{-1}\left ( \frac{b}{(s+a)^{2}+b^{2}} \right )=e^{-at}sin(bt))$$
+
+Finalmente obtenemos la siguiente expresion:
 $$X(t)=1+e^{-\frac{t}{2}}\left ( -cos\left ( \frac{1}{2}t\right )+3sin\left ( \frac{1}{2}t \right ) \right )$$
 
 # PUNTO 2
-
+Tenemos la siguiente ecuacion:
 $$\frac{6s}{(s-\frac{5}{2})(s^{2}-4s+8)}$$
 $$(s-\frac{s}{2})$$
 $$(s^{2}-4$$
+Aplicamos el metodo de fracciones parciales:
+
 $$\frac{6s}{(s-\frac{5}{2})(s^{2}-4s+8)}=\frac{A}{s-\frac{5}{2}}+\frac{Bs+C}{s^{2}-4s+8}$$
 $$((s-\frac{5}{2})(s^{2}-4s+8))$$
 
