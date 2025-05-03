@@ -228,11 +228,15 @@ $$(Bs+C)(s-\frac{5}{2})=Bs^{2}-\frac{5}{2}Bs+Cs-\frac{5}{2}C$$
 $$6s=(A+B)s^{2}+\left ( (-4A+C-\frac{5}{2}B)s \right )+\left ( 8A-\frac{5}{2}C \right )$$
 $$(6s)$$
 
+Agrupamos terminos semejantes:
+
 $$(s^{2}):(A+B=0)$$
 
 $$(s):\left ( -4A+C-\frac{5}{2}B=6  \right )$$
 
 $$\left ( 8A-\frac{5}{2}C=0 \right )$$
+
+De esta manera obtenemos:
 
 $$A+B=0\Rightarrow B=-A$$
 $$-4A+C-\frac{5}{2}(-A)=6$$
@@ -247,10 +251,13 @@ $$A=\frac{60}{17}$$
 $$B=-A=-\frac{60}{17}$$
 $$C=\frac{16}{5}A=\frac{16}{5}*\frac{60}{17}=\frac{960}{85}=\frac{192}{17}$$
 
+Reemplazamos los valores obtenidos en la ecuacion:
+
 $$\frac{6s}{\left ( s-\frac{5}{2} \right )(s^{2}-4s+8)}=\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}$$
 
 $$\frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}$$
 
+Usamos la inversa de Laplace y resolvemos para llegar a la solucion deseada:
 
 $$L^{-1}\left ( \frac{1}{s-a} \right )=e^{at}$$
 
@@ -276,6 +283,8 @@ $$L^{-1}\left ( \frac{192}{17((s-2)^{2}+4)} \right )= \frac{192}{17}*\frac{1}{2}
 $$L^{-1}\left ( \frac{60}{17}*\frac{1}{s-\frac{5}{2}}-\frac{60s}{17(s^{2}-4s+8)}+\frac{192}{17(s^{2}-4s+8)}\right )$$
 
 $$=\frac{60}{17}e^{\frac{5}{2}t}-\frac{60s}{17}e^{2t}cos(2t)+\left ( -\frac{60}{17}+\frac{96}{17} \right )e^{2t}sin(2)$$
+
+Finalmente obtenemos nuestra respuesta:
 
 $$=\frac{60}{17}e^{\frac{5}{2}t}-\frac{60}{17}e^{2t}cos(2t)+\frac{36}{17}e^{2t}sin(2t)$$
 
