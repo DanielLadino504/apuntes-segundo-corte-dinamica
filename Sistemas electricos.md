@@ -58,17 +58,5 @@ $$ V_{AB} = 2 \frac{dy(t)}{dt} \cdot 1Ω + y(t) $$
 ### Ecuación Diferencial Final
 $$ u(t) - 6 \frac{dy(t)}{dt} - 2y(t) = 0 $$
 
-## Componentes y Variables
-- **Elementos**:
-  - Fuente de voltaje: \( u(t) \)
-  - Resistencias: 1Ω, 0.5Ω
-  - Capacitor: 2F (voltaje \( y(t) \))
-  
-- **Corrientes**:
-  - \( i_u \): Corriente de entrada
-  - \( i_1 \): Corriente por 0.5Ω
-  - \( i_c \): Corriente por capacitor
 
-- **Variables clave**:
-  - \( V_{AB} \): Diferencia de potencial entre A y B
-  - \( \frac{dy(t)}{dt} \): Derivada del voltaje en el capacitor
+En este ejemplo debemos resaltar que la ecuación diferencial obtenida es de primer orden, esto debido a que el circuito planteado solo tiene un elemento acumulador de energía. 
