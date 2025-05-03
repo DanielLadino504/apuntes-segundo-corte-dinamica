@@ -20,9 +20,16 @@ $$q_{1}=\frac{h_{1}}{R_{1}}$$
 
 $$A_{1}\frac{\mathrm{d} h_{1}}{\mathrm{d} t}=q_{i}-q_{1}$$
 # Modelamiento
+Para modelar sistemas como el de la anterior imagen realizamos lo siguiente:
+
+$$h_{1}=q_{1}R_{1}
+
+$$R_{1}A_{1}\frac{\mathrm{d} q_{1}}{\mathrm{d} t}=q_{i}-q_{1}$$
+
 # Casos especiales
 ## Dos tanques
 
+![](tk.jpg)
 Tenemos este modelo de dos tanques:
 
 Para modelar este tipo de sistemas hacemos lo siguiente:
@@ -36,3 +43,4 @@ $$q_{2}=\frac{h_{2}}{R_{2}}$$
 $$A_{2}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}=q_{i}-q_{2}\to A_{2}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}=q_{i}-\frac{h_{2}}{R_{2}}$$
 
 $$q_{1}=A_{1}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}+\frac{h_{2}}{R_{2}}$$
+
