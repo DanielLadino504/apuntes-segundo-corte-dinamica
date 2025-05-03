@@ -30,6 +30,7 @@ $$R_{1}A_{1}\frac{\mathrm{d} q_{1}}{\mathrm{d} t}=q_{i}-q_{1}$$
 ## Dos tanques
 
 ![](tk.jpg)
+
 Tenemos este modelo de dos tanques:
 
 Para modelar este tipo de sistemas hacemos lo siguiente:
@@ -44,3 +45,30 @@ $$A_{2}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}=q_{i}-q_{2}\to A_{2}\frac{\mathrm{d
 
 $$q_{1}=A_{1}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}+\frac{h_{2}}{R_{2}}$$
 
+## Tanques interconectados
+
+![](2t.jpg)
+
+Para estos casos tenemos las siguientes formulas:
+
+$$q_{1}=\frac{h_{1}-h_{2}}{R_{1}}$$
+
+$$q_{2}=\frac{h_{2}}{R_{2}}$$
+
+$$A_{1}\frac{\mathrm{d} h_{1}}{\mathrm{d} t}=q_{i}-q_{1}$$
+
+$$A_{2}\frac{\mathrm{d} h_{2}}{\mathrm{d} t}=q_{i}-q_{1}$$
+
+$$A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}=+q_{2}=q_{i}$$
+
+$$A_{1}\frac{\mathrm{d} h_{1}}{\mathrm{d} t}=(q_{1}-A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}+q_{2})$$
+
+$$R_{1}q_{1}+h_{1}=h_{1}$$
+
+$$h_{1}=R_{1}(A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}+q_{2})+R_{2}q_{2}$$
+
+$$A_{1}\frac{d(R_{1}(A_{2}R_{2}\frac{\mathrm{d} q_{2}}{\mathrm{d} t}+q_{2})+R_{2}q_{2})}{dt}=(q_{i}-A_{2}R_{2}\frac{dq_{2}}{dt}+q_{2})$$
+
+$$A_{1}R_{1}A_{2}R_{2}\frac{d^{2}q_{2}}{dt^{2}}+(A_{1}R_{1}+A_{1}R_{2}+A_{2}R_{2})\frac{dq_{2}}{dt}-q_{2}=q_{i}$$
+
+# Ejercicios
