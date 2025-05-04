@@ -1,4 +1,8 @@
 # Sistemas Mecanicos
+
+Daniel Felipe Ladino, Angel David Melo, Valentina Riveros
+
+
 Se tratan de sistemas con un conjunto de elementos fisicos interconectados que al trabajar en conjunto logran realizar una accion especifica utilizando los principios de la mecanica.
 ## Resorte 
 Se trata de un componente mecanico elastico diseñado para almacenar y liberar energia. Esto se genera cuando el resorte es oprimido por otro elemento externo, el resorte almacena energia comprimiendose para que despues libere la presion a la que es sometido devolviendo la energia a su origen.
