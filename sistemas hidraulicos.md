@@ -1,4 +1,7 @@
 # Sistemas hidraulicos
+
+Daniel Felipe Ladino, Angel David Melo, Valentina Riveros
+
 Se tratan de sistemas que utilizan fluidos a presion para trasmitir fuerza con el fin de mover componentes mecanicos. Este sistema basa su funcioanmiento en el sistema pascal, que dice que la presion que se aplica a un fluido confinado en un sistema cerrado se trasmite en todas las direcciones de manera uniforme.
 ## Sistema de tanques
 ![](7.jpg)
