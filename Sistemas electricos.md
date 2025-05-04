@@ -1,5 +1,6 @@
 # Sistemas Electricos
 Daniel Felipe Ladino, Angel David Melo, Valentina Riveros
+
 Al estudiar dinámica de sistemas, nos encontramos con los sistemas eléctricos normalmente definidos como el conjunto de elementos conectados entre sí con la finalidad de generar, transmitir, distribuir y utilizar la energía eléctrica de manera eficiente y segura.
 ## Circuito RLC
 El modelamiento de sistemas eléctricos RLC (Resistor, Inductor, Capacitor) se realiza con ecuaciones diferenciales. Estas ecuaciones diferenciales normalmente son de primer y segundo orden, se reconocen a simple vista gracias a los elementos acumuladores de energía, debido a la presencia de inductancia y capacitancia. Estas ecuaciones describen el comportamiento dinámico de la corriente y el voltaje en el circuito en función del tiempo.
