@@ -1,3 +1,4 @@
+Daniel Felipe Ladino, Angel David Melo, Valentina Riveros
 # PARES
 ## Punto 1
 Ecuacion: 
